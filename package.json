@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-fr-judilibre",
+  "version": "0.1.0",
+  "description": "French court decisions (Cour de cassation and the judicial courts under it) — search, read a decision's full pseudonymised text, and resolve the short codes the source uses for jurisdiction/chamber/formation/type/ publication/solution into their French labels.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-fr-judilibre": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "fr-judilibre"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-fr-judilibre.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-6369f40604d5e2bc9db32bf986bc1b8dbbbfbd0bf433c205c3468037468252b5",
+    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
+  }
+}
