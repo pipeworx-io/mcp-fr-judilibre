@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-fr-judilibre",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "French court decisions (Cour de cassation and the judicial courts under it) — search, read a decision's full pseudonymised text, and resolve the short codes the source uses for jurisdiction/chamber/formation/type/ publication/solution into their French labels.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "fr-judilibre",
     "gatewaySlug": "fr-judilibre",
-    "sourceHash": "v1-f63976990f26b4da61e2af3c41072aa804acbd07f3277f97928263eed32b871b",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-3ab50f54dcdf2d826fd68340917cf1cbfd5cd4f0714264ea1218e69c979c4a27",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
